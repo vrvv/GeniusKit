@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_select_timing"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_400sdp"
+    android:background="#FFFFFF"
+    android:minWidth="@dimen/_400sdp"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/google_sans_medium"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Enter 6 Digit Code"
+                android:textColor="#111013"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/google_sans_medium"
+                android:singleLine="true"
+                android:text="We have sent an sms with confirmation code to"
+                android:textColor="#606060"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/google_sans_medium"
+                android:singleLine="true"
+                android:text="8569856985"
+                android:textColor="#606060"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvResend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/google_sans_medium"
+                android:singleLine="true"
+                android:text="RESEND CODE"
+                android:textColor="#F56158"
+                android:textSize="14sp" />
+
+            <com.mssoftwareindia.geniuskit.ui.OtpView
+                android:id="@+id/otp_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:inputType="number"
+                android:textColor="#F56158" />
+
+            <TextView
+                android:id="@+id/tvContinue"
+                style="@style/login_button"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="Continue"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

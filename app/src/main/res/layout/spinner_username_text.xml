@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textViewSpinnerItem"
+    style="?android:attr/spinnerItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_35sdp"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:fontFamily="@font/google_sans_medium"
+    android:layout_centerVertical="true"
+    android:gravity="center_vertical"
+    android:text="Select Username"
+    android:textColor="#000"
+    android:textSize="14sp" />

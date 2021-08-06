@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mssoftwareindia.geniuskit">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+  <!--  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+-->    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GeniusKit"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.retailer.VideoGallaryActivity"></activity>
+        <activity android:name=".activities.retailer.RetailerOrderConfirmActivity" />
+        <activity android:name=".activities.retailer.RetailerProductActivity" />
+        <activity android:name=".activities.retailer.DistributorListActivity" />
+        <activity android:name=".activities.retailer.ShopOrderHistoryActivity" />
+        <activity android:name=".activities.retailer.RetailerDashboardActivity" />
+        <activity android:name=".activities.retailer.ShopRegisterActivity" />
+        <activity android:name=".activities.retailer.RetailerLoginActivity" />
+        <activity android:name=".activities.sales.OrderProductListActivity" />
+        <activity android:name=".activities.sales.OrderConfirmActivity" />
+        <activity android:name=".activities.sales.EditProfileActivity" />
+        <activity android:name=".activities.sales.AddOrderActivity" />
+        <activity android:name=".activities.sales.SearchRetailerActivity" />
+        <activity android:name=".activities.sales.ShopListActivity" />
+        <activity android:name=".activities.sales.OrderHistoryActivity" />
+        <activity android:name=".activities.sales.AddShopActivity" />
+        <activity android:name=".activities.WelcomeActivity" />
+        <activity android:name=".activities.ContactusActivity" />
+        <activity android:name=".activities.AboutusActivity" />
+        <activity android:name=".activities.sales.DashBoardActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activities.sales.SalesLoginActivity" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

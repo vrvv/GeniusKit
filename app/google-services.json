@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784703140044",
+    "project_id": "genius-kit",
+    "storage_bucket": "genius-kit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784703140044:android:2766aa25ae5c15787c1269",
+        "android_client_info": {
+          "package_name": "com.mssoftwareindia.geniuskit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784703140044-tjroo5i2g8ppjojeugdss2sgs4duj346.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYYORJ09OTKjxCCdfv8kVBJn3tyxsw-JM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784703140044-tjroo5i2g8ppjojeugdss2sgs4duj346.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

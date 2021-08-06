@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/semi_black_transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtEdit"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_medium"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Edit Profile"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtLogout"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/google_sans_medium"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+</LinearLayout>

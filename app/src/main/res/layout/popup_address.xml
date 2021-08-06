@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/lin_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/google_sans_bold"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Update Challan"
+            android:textColor="#272A37"
+            android:textSize="@dimen/_14sdp"
+            android:transitionName="Title"
+            android:visibility="visible" />
+        <com.mssoftwareindia.geniuskit.ui.NoChangingBackgroundTextInputLayout
+            android:id="@+id/ip_challan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="28dp"
+            android:theme="@style/Widget.AppTheme.TextInputLayout.FilledBox.Dense"
+            app:boxBackgroundMode="none"
+            app:errorEnabled="false"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtChallan"
+                style="@style/EditTextTheme"
+                android:background="@drawable/rounded_gray_bg"
+                android:hint="Enter challan"
+                android:inputType="number" />
+        </com.mssoftwareindia.geniuskit.ui.NoChangingBackgroundTextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtAdd"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_blue_bg"
+            android:fontFamily="@font/google_sans_bold"
+            android:gravity="center"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.mssoftwareindia.geniuskit",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 2,
+      "versionName": "1.0",
+      "outputFile": "Geniuskit-2021-04-30-16-38-release-1.0-.apk"
+    }
+  ]
+}
